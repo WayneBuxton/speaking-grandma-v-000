@@ -1,5 +1,5 @@
-def speak_to_grandma(phrase = "I LOVE YOU GRANDMA!")
-  if phrase == "Hi Nana, how are you?"
+def speak_to_grandma(string)
+  if string == "Hi Nana, how are you?".
     return "HUH?! SPEAK UP, SONNY!"
   elsif "I LOVE YOU GRANDMA!" == "WHAT DID YOU EAT TODAY?"
     return "NO, NOT SINCE 1938!"

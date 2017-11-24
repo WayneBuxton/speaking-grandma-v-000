@@ -1,11 +1,11 @@
 def speak_to_grandma(string)
   if string == "Hi Nana, how are you?".
     return "HUH?! SPEAK UP, SONNY!"
-  elsif "I LOVE YOU GRANDMA!" == "WHAT DID YOU EAT TODAY?"
+  elsif string == "WHAT DID YOU EAT TODAY?"
     return "NO, NOT SINCE 1938!"
-  elsif "I LOVE YOU GRANDMA" == "Hi!"
+  elsif string == "Hi!"
     return "HUH?! SPEAK UP, SONNY!"
-  else "I LOVE YOU GRANDMA!" == "I LOVE YOU GRANDMA!"
+  else string == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
   end
 end
